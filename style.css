@@ -1,95 +1,65 @@
 body {
-    background-image: url(bg gym.jpg);
-    font-family: sans-serif;
-    padding: 20px;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-wrapper {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  max-width: 800px;
+}
+
+.form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  max-width: 100%;
+  max-height: 200%;
+  border-radius: 18px;
   
-  h1 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-  
-  h2 {
-    font-size: 30px;
-  }
-  
-  .established {
-    font-style: italic;
-  }
-  
-  h1, h2, p {
-    text-align: center;
-  }
-  
-  .menu {
-    width: 80%;
-    background-color: gainsboro;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 500px;
-  }
-  
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  hr {
-    height: 2px;
-    background-color: blanchedalmond;
-    border-color: black;
-  }
-  
-  .bottom-line {
-    margin-top: 25px;
-  }
-  
-  h1, h2 {
-    font-family: Impact, serif;
-  }
-  
-  .item p {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-  }
-  
-  .Gym , .Gym {
-    text-align: left;
-    width: 75%;
-  }
-  
-  .price {
-    text-align: right;
-    width: 25%;
-  }
-  
-  /* FOOTER */
-  
-  footer {
-    font-size: 14px;
-  }
-  
-  .address {
-    margin-bottom: 5px;
-  }
-  
-  a {
-    color: black;
-  }
-  
-  a:visited {
-    color: black;
-  }
-  
-  a:hover {
-    color: brown;
-  }
-  
-  a:active {
-    color: brown;
-  }
+}
